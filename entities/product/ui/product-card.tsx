@@ -2,8 +2,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader } from '@/shared'
 import { ProductPrice } from '@/entities'
+import { Product } from '@/types'
 
-export const ProductCard = ({ product }: { product: any }) => {
+export const ProductCard = ({ product }: { product: Product }) => {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader className="p-0 items-center">
