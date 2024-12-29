@@ -1,4 +1,6 @@
 export {
+  badgeVariants,
+  Badge,
   Button,
   Footer,
   Header,
